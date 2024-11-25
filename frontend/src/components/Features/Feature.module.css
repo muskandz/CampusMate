@@ -1,0 +1,40 @@
+/* src/components/Feature/Feature.module.css */
+.featureItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(
+        90deg,
+        rgba(165, 215, 232, 0.42) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.4s;
+}
+
+.featureItem:hover {
+    background-size: 100% 100%;
+}
+
+.icon {
+    width: 60px; /* Adjust icon size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between icon and text */
+}
+
+.featureText {
+    color: var(--color-text); /* Use your defined color variable */
+}
+
+.featureText h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.featureText p {
+    font-size: 18px; /* Adjusted for better readability */
+}

@@ -1,0 +1,67 @@
+/* src/components/FeedbackForm/FeedbackForm.module.css */
+.formContainer {
+    display: flex;
+    justify-content: space-between; /* Align text and form side by side */
+    background-color: #f9f9f9; /* Light background color */
+    padding: 2rem;
+    border-radius: 10px; /* Rounded corners */
+    max-width: 800px; /* Max width for the form */
+    margin: 20px auto; /* Center the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.textContainer {
+    flex: 1; /* Allow text container to take available space */
+    margin-right: 20px; /* Space between text and form */
+    display: flex;
+    flex-direction: column; /* Stack text vertically */
+    justify-content: center; /* Center text vertically */
+    align-items: center; /* Center text horizontally */
+}
+
+.textContainer h2 {
+    margin-bottom: 1rem; /* Space below heading */
+    font-size: 2rem; /* Increase heading size */
+    color: #4a90e2; /* Attractive color for heading */
+}
+
+.textContainer p {
+    margin-bottom: 1rem; /* Space below message */
+    text-align: center; /* Center align paragraph text */
+}
+
+.form {
+    flex: 1; /* Allow form container to take available space */
+    display: flex;
+    flex-direction: column; /* Stack fields vertically */
+}
+
+label {
+    margin-bottom: 1rem; /* Space between fields */
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid #ccc; /* Light border */
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+button {
+    padding: 0.7rem;
+    background-color: #4a90e2; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357ABD; /* Darker shade on hover */
+}

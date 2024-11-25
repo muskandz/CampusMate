@@ -1,0 +1,36 @@
+.dashboard {
+    display: flex;
+}
+
+.mainContent {
+    width: 75%;
+    padding: 20px;
+}
+
+.events {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eventCard {
+    background-color: #e7e7e7;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    width: calc(33% - 20px);
+}
+
+.eventCard h3 {
+    margin-top: 0;
+}
+
+.timetableOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.timetableOptions button {
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+}

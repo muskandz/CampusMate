@@ -1,0 +1,37 @@
+[
+    {
+        "icon": "FaCalendarAlt",
+        "title": "Timetable Management",
+        "description": "Easily view and manage your class schedules in one place."
+    },
+    {
+        "icon": "FaFileAlt",
+        "title": "Previous Year Papers",
+        "description": "Access a repository of past exam papers filtered by subject."
+    },
+    {
+        "icon": "FaChalkboardTeacher",
+        "title": "Faculty Profiles",
+        "description": "Connect with faculty members and view their contact information."
+    },
+    {
+        "icon": "FaStickyNote",
+        "title": "Notes Repository",
+        "description": "Download notes provided by faculty and the university."
+    },
+    {
+        "icon": "FaCalendarCheck",
+        "title": "Event Updates",
+        "description": "Stay informed about upcoming college events and activities."
+    },
+    {
+        "icon": "FaUsers",
+        "title": "Attendance Tracking",
+        "description": "Monitor your attendance percentage effortlessly."
+    },
+    {
+        "icon": "FaChartLine",
+        "title": "Results Overview",
+        "description": "Check your results for unit tests, MSTs, and final exams."
+    }
+]

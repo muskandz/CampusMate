@@ -1,0 +1,27 @@
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 10px;
+}

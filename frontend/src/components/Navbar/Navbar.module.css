@@ -1,0 +1,36 @@
+/* src/components/Navbar/Navbar.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff; /* Change to your preferred color */
+    color: #000;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.navLinks {
+    font-family: Ubuntu;
+    font-weight: 500;
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem; /* Space between links */
+}
+
+.navLinks li {
+    transition: color 0.3s ease;
+}
+
+.navLinks li a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* .navLinks li a:hover {
+    color: #ffcc00; 
+} */

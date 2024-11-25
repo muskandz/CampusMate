@@ -1,0 +1,72 @@
+.heroContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem;
+    height: 40vh;
+    background-color: #f5f5f5; 
+}
+
+.textSection {
+    font-family: Ubuntu;
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.textSection h1 {
+    font-size: 3rem; 
+    margin: 0;
+}
+
+.textSection h2 {
+    font-size: 1.8rem; 
+}
+
+.loginSection {
+    flex: 1;
+    background-color: #4a90e2; 
+    color: white;
+    padding: 1rem;
+    border-radius: 8px; 
+}
+
+.loginSection h3 {
+    margin-top: 0;
+}
+
+.loginSection form {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginSection input[type="text"],
+.loginSection input[type="password"] {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.captchaContainer {
+    margin-bottom: 1rem;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+}
+
+.checkboxContainer input {
+    margin-right: 0.5rem; /* Space between checkbox and label */
+}
+
+.loginSection button {
+    padding: 0.7rem;
+    background-color: #ffcc00; /* Button color */
+    border: none;
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer;
+}
+
+.loginSection button:hover {
+    background-color: #e6b800; /* Darker shade on hover */
+}

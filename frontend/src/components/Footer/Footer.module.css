@@ -1,0 +1,26 @@
+/* src/components/Footer/Footer.module.css */
+.footer {
+    background-color: #4a90e2; /* Background color for the footer */
+    color: white; /* Text color */
+    padding: 1rem; /* Padding around the footer */
+    text-align: center; /* Center align text */
+}
+
+.footerContent {
+    max-width: 1200px; /* Max width for content */
+    margin: 0 auto; /* Center the content */
+}
+
+.footerNav {
+    margin-top: 0.5rem; /* Space above navigation links */
+}
+
+.footerNav a {
+    color: white; /* Link color */
+    margin: 0 1rem; /* Space between links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footerNav a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
