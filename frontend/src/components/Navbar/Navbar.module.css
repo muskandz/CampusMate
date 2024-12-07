@@ -16,6 +16,7 @@
 
 .navLinks {
     font-family: Ubuntu;
+    font-size: 20;
     font-weight: 500;
     list-style-type: none;
     display: flex;
