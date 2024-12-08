@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles.logo}>
-                <img src={getImageUrl("logo5.png")} alt="logo"/>
+                <img src={getImageUrl("logo5_enhanced.png")} alt="logo"/>
                 {/* <h1>College Portal</h1> */}
             </div>
             <ul className={styles.navLinks}>
