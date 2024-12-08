@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import styles from './Notes.module.css';
+import { FaRegFilePdf } from 'react-icons/fa';
 
 const Notes = ({ rollNumber }) => {
     const [profile, setProfile] = useState({});
@@ -90,7 +91,10 @@ const Notes = ({ rollNumber }) => {
                     <ul className={styles.notesList}>
                         {notes.map((note) => (
                             <li key={note.id} className={styles.noteItem}>
-                                <p>{note.title}</p>
+                                <div className={styles.noteHeader}>
+                                    <FaRegFilePdf size={20} className={styles.noteIcon} />
+                                    <p className={styles.noteTitle}>{note.title}</p>
+                                </div>
                                 <p>
                                     <strong>Uploaded By:</strong> {note.uploadedBy}
                                 </p>
@@ -105,7 +109,7 @@ const Notes = ({ rollNumber }) => {
                         ))}
                     </ul>
                 ) : (
-                    <p>No notes available for the selected subject and type.</p>
+                    <p className={styles.noNotes}>No notes available for the selected subject and type.</p>
                 )}
             </div>
         </div>
