@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import styles from './Sidebar.module.css';
 import { useNavigate } from 'react-router-dom';
+import { FaRegUserCircle } from 'react-icons/fa';
 
 const Sidebar = ({ rollNumber, handleTimetableChange }) => {
     const [profile, setProfile] = useState({});
@@ -26,8 +27,11 @@ const Sidebar = ({ rollNumber, handleTimetableChange }) => {
 
     return (
         <div className={styles.sidebar}>
+            <div className={styles.profileSection}>
+                <FaRegUserCircle size={80} className={styles.icon} />
+                <p className={styles.name}><strong>{profile.name}</strong></p>
+            </div>
             <h2>Profile</h2>
-            <p><strong>Name:</strong> {profile.name}</p>
             <p><strong>Roll Number:</strong> {profile.rollNumber}</p>
             <p><strong>Course:</strong> {profile.course}</p>
             <p><strong>Specialization:</strong> {profile.specialization}</p>
