@@ -30,7 +30,7 @@ router.get('/fetch', (req, res) => {
         }
         res.json({ notes: results.map((note) => ({
             id: note.id,
-            title: note.title,
+            title: note.file_name,
             fileContent: note.file_content.toString('base64'),
             uploadedBy: note.uploaded_by,
         })) });
